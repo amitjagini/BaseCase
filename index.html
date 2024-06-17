@@ -1,0 +1,260 @@
+<html>
+    <head>
+        <title>HOME | BaseCase</title>
+        <link rel="stylesheet" href = "style.css">
+        <link rel="icon" type="image/x-icon" href="logo2.jpg">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="index.js"> </script>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        
+        <div id = "id1">
+            <nav>
+                    <div id="nv_txt">
+                        <div id = "tit">
+                            { BaseCase }
+                        </div>
+                        <!-- <br> -->
+                        <div id="tagl">
+                            &nbsp;&nbsp;&nbsp;Code || Help || Grow 
+                        </div>
+                    </div>
+                    &nbsp;&nbsp;&nbsp;&nbsp;
+                    <img src="logo2.jpg" id ="img2">
+                    <div id = "navbar"> 
+                        <a href="#id1"> <button id = "home_btn"> HOME</button></a> &nbsp;|  
+                        <a href="#id2"> <button id = "about_btn"> ABOUT</button></a> &nbsp;| 
+                        <a href="#id3"> <button id = "contests_btn"> CONTESTS</button></a> &nbsp;| 
+                        <a href="#id4"> <button id = "discord_btn">DISCORD</button></a> &nbsp;|
+                        <a href="#id5"> <button id = "contact_btn">CONTACT</button></a> 
+                    </div>
+            </nav>
+        </div>
+        <br><br><br><br><br>
+        <!-- <marquee>Join our discord server and deep dive into the world of Competitive Programming</marquee> -->
+        <br><br><br><br>
+        <div class="slideshow-container">
+
+            
+            <div class="mySlides fade">
+              <img src="slide1.png" style="width:100%">
+              <div class="text">Are you worried of these seamless errors while coding ?</div>
+            </div>
+          
+            <div class="mySlides fade">
+                <img src="Peer.png" style="width:100%">
+                <div class="text"> Tired of Searching a peer group for coding ? </div>
+              </div>
+          
+              <div class="mySlides fade">
+                <img src="slide3.png" style="width:100%">
+              </div>
+          
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+          </div>
+          <br>
+          
+          <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+          </div>
+        <!-- SECTION 2 (ABOUT) -->
+        <section id = "id2"> 
+            <br>
+            <!-- <img src="image2.png"> -->
+            <div id="about_section">
+                
+                <div id = "about_txt">
+                    
+                    <h3><u>ABOUT</u></h3> 
+                    Competitive programming is an 
+                    exhilarating and intellectually 
+                    stimulating field where students 
+                    tackle algorithmic and mathematical 
+                    problems under time constraints, 
+                    enhancing their coding skills and 
+                    problem-solving abilities. Our 
+                    community is dedicated to fostering 
+                    a collaborative environment where 
+                    like-minded individuals can share 
+                    knowledge, practice coding challenges, 
+                    and prepare for prestigious competitions 
+                    like ACM-ICPC and more. 
+                    By joining us, you'll gain access to 
+                    a wealth of resources, including curated 
+                    problem sets, expert-led workshops, and 
+                    peer support, all designed to help you 
+                    excel in competitive programming and achieve 
+                    your goals. Whether you're a beginner eager 
+                    to learn or an experienced coder aiming to 
+                    refine your skills, our community is the 
+                    perfect place to grow and thrive.
+                </div>
+                &nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;
+                <div id="about_img">
+                    <br>
+                    <img src="image.jpg" id="image1">
+                </div>
+            </div>
+        <!-- </image> -->
+        </section>
+        <!-- <br><br><br> -->
+        <!-- <br><br><br><br><br><br><br><br><br><br><br><br> -->
+        <!-- SECTION 3 (CONTESTS) -->
+        <section id = "id3">
+            <br><br><br>
+            <div id="contests_section">
+                <h3> <u> CONTESTS</u> </h3>
+                Here is why one needs to participate in contests regulary 
+                in platforms like CodeChef , CodeForces and Leetcode.....<br><br><br>
+
+
+                <button class="accordion">Improves Problem-Solving Skills</button>
+                <div class="panel">
+                    <p>
+                        Coding contests present a variety of challenging
+                         problems across different
+                     topics and difficulty levels. By regularly solving 
+                     these problems, you enhance
+                      your problem-solving skills and become more proficient 
+                      in algorithmic thinking.
+                    </p>
+                </div>
+
+                <button class="accordion">Exposure to Diverse Problems</button>
+                <div class="panel">
+                    <p>
+                        Each contest introduces you to new and diverse problem 
+                        types, ranging from classic 
+                        algorithms to real-world applications. This exposure 
+                        broadens your knowledge and 
+                        prepares you to tackle a wide range of problems in 
+                        competitions and real-world scenarios.
+                    </p>
+                </div>
+
+                <button class="accordion">Enhances Speed and Accuracy</button>
+                <div class="panel">
+                <p>
+                    Competitive programming contests are time-bound, requiring 
+                    you to solve problems efficiently within a limited timeframe. 
+                    Regular participation helps you develop speed and accuracy in 
+                    coding, enabling you to solve problems quickly and effectively
+                     under pressure.
+                </p>
+                </div>
+                <button class="accordion">Community Interaction and Learning</button>
+                <div class="panel">
+                <p>
+                    Participating in contests allows you to engage with a vibrant community
+                     of programmers, exchange ideas, and learn from others' approaches and 
+                     solutions. Collaborating with fellow participants through discussions 
+                     and post-contest analysis can deepen your understanding of problem-solving 
+                     techniques and foster a supportive learning environment.
+                </p>
+                </div>
+            </div>
+            <script>
+                var acc = document.getElementsByClassName("accordion");
+                var i;
+
+                for (i = 0; i < acc.length; i++) {
+                acc[i].addEventListener("click", function() {
+                    this.classList.toggle("active");
+                    
+                    var panel = this.nextElementSibling;
+                    if (panel.style.maxHeight)
+                    {
+                        
+                        this.style.backgroundColor = "#81a9d9";
+                        this.style.color = "#000000";
+                        panel.style.maxHeight = null;
+                    }
+                    else
+                    {
+                        this.style.backgroundColor = "#102a43";
+                        this.style.color = "#ffffff";
+                        panel.style.maxHeight = panel.scrollHeight + "px";
+                    }
+                });
+                }
+            </script>
+        </section>
+       
+        <section id = "id4">
+            <div id="discord_section">
+                <br><br>
+                Dive into the realm of Competitive Programming with 
+                BaseCase, a Discord server dedicated to coders who thrive 
+                on challenge and growth. Here, algorithms and data structures
+                are not just topics, but gateways to mastering problem-solving 
+                skills. Connect with peers, tackle coding puzzles, and participate 
+                in exciting contests that push your limits. Whether you&apos;re a seasoned 
+                competitor or just starting out, BaseCase is your launchpad to the top
+                of the leaderboard. Join BaseCase now and let&apos;s decode success together! <br>
+                <center><a href="https://discord.gg/Sscd9sXe9P" target="_blank"><button id="inv_button">GET STARTED! </button></a></center>
+            </div>
+        </section>
+        <section id = "id5">
+            <!-- <footer>
+                    
+            </footer> -->
+            <div id="foo">
+                <div id="foo1">
+                    <div id="foot_logo">
+                    <img src="logo2.jpg" id="foo_log">
+                    </div>
+                    
+                    <br><br><br><br><br><br><br><br><br><br>
+                </div>
+                <div id="foo2">
+                    <div id="foo_name">
+                        { BaseCase }
+                    </div>
+                    <div id="foo_tagl">
+                        Code || Help || Grow 
+                    </div>
+                </div>
+                <div id="foo3">
+                    <div id = "cont"><U>CONTACT US</U></div>
+                    <div id="social">
+                        <a href="#" target="_blank" class="fa fa-linkedin"> linkedin</a>
+                        <br>
+                        <a href="#" target="_blank" class="fa fa-instagram"> instagram </a>
+                        <br>
+                        <a href="#" target="_blank" class="fa fa-google"> gmail </a>
+                    </div>
+                </div>
+                <div id="foo4">
+                    <div id = "cont"><U>RESOURCES</U></div>
+                    <a href="https://cp-algorithms.com/index.html" class="res" target="_blank"> <div>CP Algorithms</div> </a>
+                    <!-- <br> -->
+                    <a href="https://cses.fi/book/book.pdf" class="res" target="_blank"> <div>CP Handbook</div> </a>
+                    <!-- <br> -->
+                    <a href="https://usaco.guide/dashboard" class="res" target="_blank"> <div>USACO Guide</div> </a>
+                    <!-- <br> -->
+                    <a href="https://neetcode.io/roadmap" class="res" target="_blank"> <div>NeetCode Roadmap</div> </a>
+                </div>
+                <div id="foo5">
+                    <div id = "cont"><U>QUICK LINKS</U></div>
+                    <a href="https://codeforces.com/" class="res" target="_blank"> <div>Codeforces</div> </a>
+                    <!-- <br> -->
+                    <a href="https://leetcode.com/" class="res" target="_blank"> <div>Leetcode</div> </a>
+                    <!-- <br> -->
+                    <a href="https://www.codechef.com/" class="res" target="_blank"> <div>Codechef</div> </a>
+                    <!-- <br> -->
+                    <a href="https://cses.fi/problemset/" class="res" target="_blank"> CSES Problemset <div></div> </a>
+                </div>
+                <div id="foo6">
+                    BaseCase by Amit J & Parthiv.
+                </div>
+            </div>
+        </section>
+    </body>
+</html>
